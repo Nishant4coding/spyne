@@ -44,7 +44,7 @@ const Navbar = () => {
             <NavLink to="/" onClick={toggleMenu} className="px-4 font-bold py-2 bg-orange-500 text-white rounded-md">
               Home
             </NavLink>
-            <NavLink to="/documentation" onClick={toggleMenu} className="px-4 py-2 bg-orange-500 text-white font-bold rounded-md">
+            <NavLink to="/doc" onClick={toggleMenu} className="px-4 py-2 bg-orange-500 text-white font-bold rounded-md">
               Documentation
             </NavLink>
           </nav>
