@@ -22,11 +22,11 @@ To get started with Spyne Captions, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/spyne-captions.git
+   git clone https://github.com/Nishant4coding/spyne-captions.git
 
 2. Install dependencies:
    ```bash
-   cd spyne-captions
+   cd spyne
    npm install
 
 3. Start the development server:
