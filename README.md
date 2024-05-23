@@ -23,3 +23,22 @@ To get started with Spyne Captions, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/spyne-captions.git
+
+2. Install dependencies:
+   ```bash
+   cd spyne-captions
+   npm install
+
+3. Start the development server:
+
+   ```bash
+   npm start
+
+4.Open your browser and navigate to **http://localhost:3000** to see the application running
+
+
+## Usage
+- Enter a valid video URL in the input field.
+- Add captions by specifying the text and timestamp.
+- View the video with the captions displayed at the specified times.
+
