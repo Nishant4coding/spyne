@@ -4,6 +4,7 @@ import Landing from './pages/Landing';
 import Doc from './pages/Doc';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Main from './components/Main';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/main" element={<Main />} />
           <Route path="/documentation" element={<Doc />} />
         </Routes>
         <Footer/>
