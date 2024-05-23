@@ -47,12 +47,12 @@ function VideoPlayer({ videoUrl, captions }) {
     <div className="w-auto ">
       <div className="relative w-full">
         <ReactPlayer
-          className=" top-0 left-0 lg:w-full w-auto h-auto lg:h-full"
+          className=" top-0 left-0 lg:w-full w-auto "
           ref={playerRef}
           url={videoUrl}
           controls={true}
           width=""
-          height=""
+          
         />
 
         {currentCaption && (
