@@ -5,6 +5,7 @@ import Doc from './pages/Doc';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import Process from './pages/Process';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/main" element={<Main />} />
           <Route path="/doc" element={<Doc />} />
+          <Route path="/steps" element={<Process />} />
         </Routes>
         <Footer/>
       </Router>

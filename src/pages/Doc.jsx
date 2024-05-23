@@ -1,10 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 function Doc() {
   return (
     <div className="min-h-screen bg-gray-100 p-6 ">
       <div className="container mx-auto bg-white p-8 rounded-md shadow-md mt-20">
-        <h1 className="lg:text-4xl text-3xl font-bold mb-8 text-center">Spyne Captions Documentation</h1>
+      <div className='flex justify-center items-center flex-col'>
+  <h1 className="lg:text-4xl text-3xl font-bold mb-8 text-center">Spyne Captions Documentation</h1>
+  <Link to="/steps" className='text-center font-bold bg-orange-500 rounded-full px-4 py-2 '>Steps to use this app</Link>
+</div>
+
         
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Overview</h2>
@@ -32,12 +37,12 @@ function Doc() {
           </ul>
         </section>
         
-        <section className="mb-8">
+        {/* <section className="mb-8">
           <h2 className="text-2xl font-bold mb-2">URL Validation</h2>
           <p>
             The application validates the video URL to ensure it is in the correct format before allowing users to add captions. An error message is displayed if the URL is invalid.
           </p>
-        </section>
+        </section> */}
         
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Usage</h2>

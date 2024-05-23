@@ -20,7 +20,7 @@ const Navbar = () => {
         <NavLink to="/" className="px-4 font-bold py-2 bg-orange-500 text-white rounded-md">
           Home
         </NavLink>
-        <NavLink to="/documentation" className="px-4 py-2 bg-orange-500 text-white font-bold rounded-md">
+        <NavLink to="/doc" className="px-4 py-2 bg-orange-500 text-white font-bold rounded-md">
           Documentation
         </NavLink>
       </div>
